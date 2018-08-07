@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+kubeconfig.yaml
+.idea
+node_modules
+cfssl
