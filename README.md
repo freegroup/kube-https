@@ -83,7 +83,7 @@ cfssl print-defaults csr > server.json
 ```
 
 Most important values for server certificate are Common Name (CN) and hosts. We have to substitute them, for example:
-```sh 
+```json
 {
     "CN": "Gardener Self Signe CA",
     "hosts": [
