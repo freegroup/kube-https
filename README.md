@@ -48,8 +48,8 @@ example `ca-csr.json`
         "api.ingress.https-test.cpet.shoot.canary.k8s-hana.ondemand.com"
     ],
     "key": {
-        "algo": "ecdsa",
-        "size": 256
+        "algo": "rsa",
+        "size": 2048
     },
     "names": [
         {
@@ -91,8 +91,8 @@ Most important values for server certificate are Common Name (CN) and hosts. We 
         "api.ingress.https-test.cpet.shoot.canary.k8s-hana.ondemand.com"
     ],
     "key": {
-        "algo": "ecdsa",
-        "size": 256
+        "algo": "rsa",
+        "size": 2048
     },
     "names": [
         {
